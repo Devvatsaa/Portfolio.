@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev-Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ba407ea8c0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="xxx">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#xxx">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class=" header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Dev Vatsa</span>, <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- /* --------------about--------------- */ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div id="about-col-1">
+                    <img src="Images/pbg1.jpeg" alt="">
+                </div>
+                <div id="about-col-2">
+                    <h1 class="title">About Me</h1>
+                    <p id="intro">I am a third year B. tech undergraduate student advancing my knowledge domain in Web
+                        Development
+                        and looking forward to grab all the opportunities possible. I am ready to learn and thrive
+                        towards perfection.</p>
+                    <div class="table-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                    </div>
+                    <div class="table-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Web interface designing</li>
+                            <li><span>Web Development</span><br>Handy in development tools</li>
+                            <li><span>Problem solving</span><br>Tackling DSA problems</li>
+                        </ul>
+                    </div>
+                    <div class="table-contents" id="education">
+                        <ul>
+                            <li><span>Matriculation</span><br>Saint Thomas School ,Godda</li>
+                            <li><span>10+2</span><br>Delhi Public School ,Bokaro</li>
+                            <li><span>Graduation,B.Tech(CSE)</span><br>Heritage Institute of Technology ,Kolkata</li>
+                        </ul>
+                    </div>
+                    <div class="table-contents" id="experience">
+                        <ul>
+                            <li><span>2021</span><br>Internship at starthouse</li>
+                            <li><span>2022</span><br>Global Hackathon Participation</li>
+                            <li><span>2023</span><br>STEP Internship</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!----------------------------------------services----------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class=" sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h1>Web Developer</h1>
+                    <p>Odio totam voluptatem unde delectus aliquid eveniet. Autem vero excepturi odio quis et,
+                        modi iusto illum!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h1>Problem Solving</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius culpa optio repudiandae voluptates
+                        magnam</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h1>Web Design</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius culpa optio repudiandae voluptates
+                        magnam, odio totam voluptatem !</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----------------------portfolio--------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class=" sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png" alt="">
+                    <div class="layers">
+                        <h3>Drum Kit</h3>
+                        <p>This website was created while learning the basics of HTML,CSS and JavaScript
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png" alt="">
+                    <div class="layers">
+                        <h3>Simon Game</h3>
+                        <p>This is a fun website and is based on JS</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png" alt="">
+                    <div class="layers">
+                        <h3>Portfolio</h3>
+                        <p>
+                            This is my portfolio website describing my hands on skills</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------------------------contact------------------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="c-left">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>dev025vatsa@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6204573181</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/dev-vatsa-2714221b7/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/dev_vatsa25"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/dev_vatsa25/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100074550443271"><i
+                                class="fa-brands fa-facebook-square"></i></a>
+                    </div>
+                    <a href="Images/DevVatsa.resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="c-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Dev Vatsa. Made by Dev Vatsa </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("table-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwa9QuBVL10DTWghJ4MrFDGUKg950Cyt125IbRF6CLJfdio2l_NwK2yBKchct5S4DDO4A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
